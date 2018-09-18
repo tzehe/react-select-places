@@ -1,5 +1,6 @@
-import React, { Component, PropTypes } from 'react';
-import Select from 'react-select';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import Async from 'react-select/lib/Async';
 
 class SelectPlaces extends Component {
   mapValueToState = async props => {
@@ -43,7 +44,7 @@ class SelectPlaces extends Component {
           value = { label: props.value };
         } else {
           value = props.value &&
-          props.value.label && { label: props.value.label };
+            props.value.label && { label: props.value.label };
         }
       }
       return value;
@@ -75,8 +76,7 @@ class SelectPlaces extends Component {
   loadOptions = (input, callback) => {
     if (input) {
       if (!this.autocompleteService && window.google && window.google.maps) {
-        this.autocompleteService = new window.google.maps.places
-          .AutocompleteService();
+        this.autocompleteService = new window.google.maps.places.AutocompleteService();
       }
 
       if (this.autocompleteService) {
@@ -91,10 +91,8 @@ class SelectPlaces extends Component {
               }));
             }
 
-            callback(null, {
-              options,
-              complete: false
-            });
+            callback(options);
+            // callback(null, { options, complete: false });
           }
         );
       } else {
@@ -145,7 +143,7 @@ class SelectPlaces extends Component {
   render() {
     return (
       <div>
-        <Select.Async
+        <Async
           {...this.props}
           valueKey="label"
           value={this.state && this.state.value}
