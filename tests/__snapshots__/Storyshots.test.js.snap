@@ -164,21 +164,25 @@ exports[`Storyshots SelectPlaces Use multi select 1`] = `
       >
         <div>
           <p>
-            As a wrapper of 
+            As a wrapper of
+             
             <a
               href="https://github.com/JedWatson/react-select"
               target="_blank"
             >
               react-select
             </a>
-            , 
+            ,
+             
             <a
               href="https://github.com/akofman/react-select-places"
               target="_blank"
             >
               react-select-places
             </a>
-             proposes the same 
+             
+            proposes the same
+             
             <a
               href="https://github.com/JedWatson/react-select#usage"
               target="_blank"
@@ -609,7 +613,7 @@ exports[`Storyshots SelectPlaces Use multi select 1`] = `
                   onChange
                 </td>
                 <td>
-                  func
+                  other
                 </td>
                 <td>
                   no
@@ -623,7 +627,7 @@ exports[`Storyshots SelectPlaces Use multi select 1`] = `
                   simpleValue
                 </td>
                 <td>
-                  bool
+                  other
                 </td>
                 <td>
                   no
@@ -758,7 +762,8 @@ exports[`Storyshots SelectPlaces default 1`] = `
           <b>
             label
           </b>
-           and a 
+           and a
+           
           <b>
             placeId
           </b>
@@ -1240,7 +1245,25 @@ exports[`Storyshots SelectPlaces default 1`] = `
                     }
                   }
                 >
-                   and a 
+                   and a
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                   
                 </span>
               </div>
               <div>
@@ -2253,7 +2276,7 @@ exports[`Storyshots SelectPlaces default 1`] = `
                   onChange
                 </td>
                 <td>
-                  func
+                  other
                 </td>
                 <td>
                   no
@@ -2267,7 +2290,7 @@ exports[`Storyshots SelectPlaces default 1`] = `
                   simpleValue
                 </td>
                 <td>
-                  bool
+                  other
                 </td>
                 <td>
                   no
@@ -2423,14 +2446,17 @@ exports[`Storyshots SelectPlaces override styles 1`] = `
       >
         <div>
           <p>
-            It is possible to override the default 
+            It is possible to override the default
+             
             <a
               href="https://github.com/JedWatson/react-select"
               target="_blank"
             >
               react-select
             </a>
-             styles from the className props which is also convenient in order to use libs like 
+             
+            styles from the className props which is also convenient in order to use libs like
+             
             <a
               href="https://github.com/styled-components/styled-components"
               target="_blank"
@@ -2596,7 +2622,7 @@ exports[`Storyshots SelectPlaces override styles 1`] = `
                   onChange
                 </td>
                 <td>
-                  func
+                  other
                 </td>
                 <td>
                   no
@@ -2610,7 +2636,7 @@ exports[`Storyshots SelectPlaces override styles 1`] = `
                   simpleValue
                 </td>
                 <td>
-                  bool
+                  other
                 </td>
                 <td>
                   no
@@ -2766,14 +2792,17 @@ exports[`Storyshots SelectPlaces restrict predictions to cities in France 1`] = 
       >
         <div>
           <p>
-            It is possible to customize the autocompletion request based on the 
+            It is possible to customize the autocompletion request based on the
+             
             <a
               href="https://developers.google.com/maps/documentation/javascript/reference?hl=fr#AutocompletionRequest"
               target="_blank"
             >
-               AutocompletionRequest object specification
+               
+              AutocompletionRequest object specification
             </a>
-             of the Google Maps Places api.
+             
+            of the Google Maps Places api.
           </p>
         </div>
       </div>
@@ -3017,7 +3046,7 @@ exports[`Storyshots SelectPlaces restrict predictions to cities in France 1`] = 
                   onChange
                 </td>
                 <td>
-                  func
+                  other
                 </td>
                 <td>
                   no
@@ -3031,7 +3060,7 @@ exports[`Storyshots SelectPlaces restrict predictions to cities in France 1`] = 
                   simpleValue
                 </td>
                 <td>
-                  bool
+                  other
                 </td>
                 <td>
                   no
@@ -3191,12 +3220,14 @@ exports[`Storyshots SelectPlaces retrieve places info on change 1`] = `
             <b>
               onChange
             </b>
-             callback gives access to more places info returned by the 
+             callback gives access to more places info returned by the
+             
             <a
               href="https://developers.google.com/maps/documentation/javascript/reference?hl=fr#PlaceResult"
               target="_blank"
             >
-               Google Maps Places api
+               
+              Google Maps Places api
             </a>
             .
           </p>
@@ -3358,7 +3389,7 @@ exports[`Storyshots SelectPlaces retrieve places info on change 1`] = `
                   onChange
                 </td>
                 <td>
-                  func
+                  other
                 </td>
                 <td>
                   no
@@ -3372,7 +3403,7 @@ exports[`Storyshots SelectPlaces retrieve places info on change 1`] = `
                   simpleValue
                 </td>
                 <td>
-                  bool
+                  other
                 </td>
                 <td>
                   no
